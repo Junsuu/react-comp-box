@@ -1,4 +1,6 @@
-const PullToRefresh = () => {
+export interface PullToRefreshProps {}
+
+const PullToRefresh: React.FC<PullToRefreshProps> = ({}) => {
   return <></>;
 };
 

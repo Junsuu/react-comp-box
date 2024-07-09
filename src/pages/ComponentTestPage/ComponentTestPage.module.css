@@ -1,0 +1,18 @@
+.container {
+  width: calc(100vw - 100px);
+  height: calc(100vh - 100px);
+  overflow: auto;
+  padding: 50px;
+}
+
+.sectionContainer {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.sectionTitle {
+  color: #595959;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}

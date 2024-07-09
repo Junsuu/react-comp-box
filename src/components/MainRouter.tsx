@@ -2,7 +2,13 @@ import React, { Suspense, lazy } from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const routeList = [{ name: "SampleView", path: "/", component: lazy(() => import("@/pages/SamplePages")) }];
+const routeList = [
+  {
+    name: "ComponentTestPage",
+    path: "/",
+    component: lazy(() => import("@/pages/ComponentTestPage/ComponentTestPage")),
+  },
+];
 
 const MainRouter: React.FC = () => {
   const renderedRoutes = routeList.map((item) => (
