@@ -1,9 +1,11 @@
 import MainRouter from "@/components/MainRouter";
 
-function App() {
-  <>
-    <MainRouter />
-  </>;
-}
+const App = () => {
+  return (
+    <>
+      <MainRouter />
+    </>
+  );
+};
 
 export default App;
